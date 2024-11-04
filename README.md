@@ -18,7 +18,8 @@ This project focuses on analysing the sales performance of a retail store to der
 - `data/raw`: Contains the raw sales data used for the analysis (e.g., CSV files).
 - `data/processed`: Contains cleaned and transformed data (processed using Excel).
 ## SQL Queries
-- **`sql_queries/sales_data.sql`**: SQL queries for analysing sales data.
+- **`LITAPROJECT_SQL.sql`**: SQL queries for analysing sales data for the retail store and customer data for the subscription service.
+
 Example snippet:
 ```sql
 ---Total Revenue for Each Product---
@@ -26,7 +27,7 @@ SELECT PRODUCT, SUM(TotalRevenue) AS TOTALREVENUE FROM CapstoneDatasetSalesData
 GROUP BY PRODUCT
 ORDER BY 2 DESC
 ```
-- **`sql_queries/customer_data.sql`**: SQL queries for segmenting customers based on their subscription behaviour.
+
 Example snippet:
 ```sql
 ---Total Number of Customers from Each Region---
