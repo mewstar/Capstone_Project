@@ -15,7 +15,7 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Setup](#setup)
 
 ## Data
-- `data/raw`: Contains the raw sales data used for the analysis (e.g., CSV files).
+- `LITA Capstone Dataset CustomerData.csv`, ``: Contains the raw sales data used for the analysis (e.g., CSV files).
 - `data/processed`: Contains cleaned and transformed data (processed using Excel).
 ## SQL Queries
 - **`LITAPROJECT_SQL.sql`**: SQL queries for analysing sales data for the retail store and customer data for the subscription service.
