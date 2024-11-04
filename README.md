@@ -46,11 +46,21 @@ GROUP BY Region
 ### Sales Performance Analysis for a Retail Store
 
 #### Excel
-- **Total Sales by Product**: 68,461
-- **Total Sales by Region**: 
+- **Total Sales by Product**:
+
+![1](1.png)
+- **Total Sales by Region**:
+
+![2_1](2_1.png)   ![2_2](2_2.png)
 - **Total Sales by Month**:
-- **Total Units Sold**: 150,000 units
-- **Sales Growth**: 12% compared to last quarter
+
+![3](3.png)
+- **Average Sales per Product**:
+
+![4](4.png)
+- **Total Revenue by Region**:
+
+![5](5.png)
 - **Profit Margin**: 25%
 #### SQL
 #### Power BI
