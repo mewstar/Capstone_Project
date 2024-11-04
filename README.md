@@ -14,7 +14,7 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Reports](#reports)
 
 ## Data
-- `LITA Capstone Dataset CustomerData.csv`, `LITA Capstone Dataset SalesData.csv`: Contains the raw sales and customer data used for the analysis.
+- `LITA Capstone Dataset Raw.xlsx`: Contains the raw sales and customer data used for the analysis.
 - `LITA Capstone Dataset.xlsx`: Contains cleaned and transformed data processed in Excel, including pivot table summaries for key insights.
 
 ## SQL Queries
@@ -39,8 +39,18 @@ GROUP BY Region
 - **`LITA Capstone Dataset.xlsx`**: Contains data analysis and visualizations of sales trends, revenue, and customer metrics. As well as the customer segmentation analysis for a subscription service.
 
 ## Power BI Dashboards
-- **`LITA Capstone Project.pbix`**: Power BI dashboard that visualizes total revenue, total sales, units sold, sales growth, and top-performing region by revenue made. It also includes the dashboard that visualizes customer segmentation insights for the subscription service (e.g., customer clusters, behaviors).
+- **`LITA Capstone Project.pbix`**: Power BI dashboard that visualizes total revenue, total sales, units sold, sales growth, and top-performing region by revenue made. It also includes the dashboard that visualizes customer segmentation insights for the subscription service (e.g., cancellations and subscription trends).
 
 ## Reports
-Summarizes the analysis and insights from the project, including charts and customer segments.
 
+### Sales Performance Analysis for a Retail Store
+
+#### Excel
+#### SQL
+#### Power BI
+
+### Customer Segmentation for a Subscription Service
+
+#### Excel
+#### SQL
+#### Power BI
