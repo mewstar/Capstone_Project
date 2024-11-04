@@ -40,11 +40,10 @@ GROUP BY Region
 - **`LITA Capstone Dataset.xlsx`**: Contains data analysis and visualizations of sales trends, revenue, and customer metrics. As well as the customer segmentation analysis for a subscription service.
 
 ## Power BI Dashboards
-- **`power_bi/sales_dashboard.pbix`**: Power BI dashboard that visualizes total sales, units sold, sales growth, and profit margin.
-- **`power_bi/customersegmentation_dashboard.pbix`**: Power BI dashboard that visualizes customer segmentation insights (e.g., customer clusters, behaviors).
+- **`LITA Capstone Project.pbix`**: Power BI dashboard that visualizes total revenue, total sales, units sold, sales growth, and top-performing region by revenue made. It also includes the dashboard that visualizes customer segmentation insights for the subscription service (e.g., customer clusters, behaviors).
 
 ## Reports
-- **`reports/final_report.md`**: Summarizes the analysis and insights from the project, including charts and customer segments.
+Summarizes the analysis and insights from the project, including charts and customer segments.
 
 ## Setup
 1. Clone the repository:
