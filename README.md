@@ -12,7 +12,6 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Excel Reports](#excel-reports)
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Reports](#reports)
-- [Setup](#setup)
 
 ## Data
 - `LITA Capstone Dataset CustomerData.csv`, `LITA Capstone Dataset SalesData.csv`: Contains the raw sales and customer data used for the analysis.
@@ -45,10 +44,3 @@ GROUP BY Region
 ## Reports
 Summarizes the analysis and insights from the project, including charts and customer segments.
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sales-analysis-customer-segmentation.git
-   ```
-2. Review the **SQL Queries** in the `sql_queries` folder to extract and clean the data.
-3. Open the **Excel Reports** and **Power BI Dashboards** to review the analysis and visualizations.
