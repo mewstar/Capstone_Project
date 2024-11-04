@@ -60,8 +60,9 @@ GROUP BY Region
 ![4](4.png)
 - **Total Revenue by Region**:
 
-![5](5.png)
-- **Profit Margin**: 25%
+![5_1](5_1.png)  ![5_2](5_2.png)
+
+![6](6.png)  ![7](7.png)  ![8](8.png)
 #### SQL
 #### Power BI
 
