@@ -37,8 +37,7 @@ GROUP BY Region
 ```
 
 ## Excel Reports
-- **`excel_reports/sales_analysis.xlsx`**: Contains data analysis and visualizations of sales trends, revenue, and customer metrics.
-- **`excel_reports/customer_segmentation.xlsx`**: Contains customer segmentation analysis for a subscription service.
+- **`LITA Capstone Dataset.xlsx`**: Contains data analysis and visualizations of sales trends, revenue, and customer metrics. As well as the customer segmentation analysis for a subscription service.
 
 ## Power BI Dashboards
 - **`power_bi/sales_dashboard.pbix`**: Power BI dashboard that visualizes total sales, units sold, sales growth, and profit margin.
