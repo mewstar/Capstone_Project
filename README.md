@@ -9,7 +9,7 @@ This project focuses on analysing the sales performance of a retail store to der
 ## Table of Contents
 - [Data](#data)
 - [SQL Queries](#sql-queries)
-- [Excel Reports](#excel-reports)
+- [Excel Workbook](#excel-workbook)
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Reports](#reports)
 
