@@ -252,4 +252,12 @@ GROUP BY Canceled;
 ![Customer Data](CustomerData.png)
 
 ## Conclusion
+This analysis of **sales performance** and **customer segmentation** provides a robust foundation for understanding key business drivers in a retail and subscription context. By leveraging SQL, Excel, and Power BI, crucial metrics were explored and visualizations developed to deliver actionable insights.
 
+For the **Sales Performance Analysis**, the project focused on uncovering trends in product popularity, regional sales contributions, and monthly growth. Through data exploration in Excel and SQL, metrics such as average sales per product, total revenue by region, and top customer purchases were calculated. These insights were consolidated into an interactive Power BI dashboard, which highlights top-selling products and key regional contributors. This tool allows stakeholders to track ongoing sales performance, identify top markets, and tailor strategies to boost profitability in underperforming areas.
+
+The **Customer Segmentation for a Subscription Service** project identified patterns in subscription behaviour, retention rates, and revenue streams. SQL queries helped isolate key metrics, such as subscription duration, regional customer distribution, and cancellation trends. Customer segments were further analysed in Excel to reveal insights on the most popular subscription types and common cancellation timelines. These findings, visualized in a Power BI dashboard, provide an interactive view of customer demographics, retention risks, and high-value subscription types, allowing for targeted marketing and retention efforts.
+
+In summary, this project illustrates the power of data analytics in driving informed decisions in sales and customer management. By identifying product trends, high-value customers, and regional contributions, the **Sales Performance Analysis** guides business development. Simultaneously, the **Customer Segmentation** analysis supports strategic initiatives to improve customer satisfaction, retention, and profitability.
+
+Together, these insights lay the groundwork for sustainable growth, empowering businesses to refine their marketing strategies, strengthen customer relationships, and maximize profitability across diverse markets.
