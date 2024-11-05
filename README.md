@@ -35,7 +35,7 @@ SELECT Region, COUNT(CUSTOMERID) AS TOTALCUSTOMERS FROM CapstoneDatasetCustomerD
 GROUP BY Region
 ```
 
-## Excel Reports
+## Excel Workbook
 - **`LITA Capstone Dataset.xlsx`**: Contains data analysis and visualizations of sales trends, revenue, and customer metrics. As well as the customer segmentation analysis for a subscription service.
 
 ## Power BI Dashboards
@@ -148,9 +148,16 @@ GROUP BY PRODUCT
 ```
 #### Power BI
 ![Sales Data](SalesData.png)
+
 ### Customer Segmentation for a Subscription Service
 
 #### Excel
+Subscription Duration in days is calculated for each row with the formula: SubscriptionEnd -SubscriptionStart
+```excel
+   =F2 - E2
+```
+
+
 #### SQL
 #### Power BI
 ![Customer Data](CustomerData.png)
