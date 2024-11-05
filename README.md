@@ -13,6 +13,7 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Reports](#reports)
   - [Sales Analysis](#sales-performance-analysis-for-a-retail-store)
+  - [Customer Segmentation](#customer-segmentation-for-a-subscription-service)
 
 ## Data
 - `LITA Capstone Dataset Raw.xlsx`: Contains the raw sales and customer data used for the analysis.
@@ -43,7 +44,7 @@ GROUP BY Region
 - **`LITA Capstone Project.pbix`**: Power BI dashboard that visualizes total revenue, total sales, units sold, sales growth, and top-performing region by revenue made. It also includes the dashboard that visualizes customer segmentation insights for the subscription service (e.g., cancellations and subscription trends).
 
 ## Reports
-
+Provides a comprehensive summary of the analysis and insights derived from the project, including visualizations and detailed customer segments.
 ### Sales Performance Analysis for a Retail Store
 
 #### Excel 
