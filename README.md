@@ -13,7 +13,13 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Reports](#reports)
   - [Sales Analysis](#sales-performance-analysis-for-a-retail-store)
+    - [Excel](#excel)
+    - [SQL](#sql)
+    - [Power BI](#power-bi)
   - [Customer Segmentation](#customer-segmentation-for-a-subscription-service)
+    - [Excel](#excel)
+    - [SQL](#sql)
+    - [Power BI](#power-bi)
 - [Conclusion](#conclusion)
 
 ## Data
@@ -191,6 +197,57 @@ Subscription Duration in days is calculated for each row with the formula: Subsc
 
 ![16](16.png)
 #### SQL
+- **Total Customers from Each Region**:
+```sql
+---Total Number of Customers From Each Region---
+SELECT Region, COUNT(CUSTOMERID) AS TOTALCUSTOMERS FROM CapstoneDatasetCustomerData
+GROUP BY Region
+```
+- **Most Popular Subscription Type by Number of Customers**:
+```sql
+---Most Popular Subscription Type by the Number of Customers---
+SELECT SUBSCRIPTIONTYPE, COUNT(SUBSCRIPTIONTYPE) AS TOTALCUSTOMERS FROM CapstoneDatasetCustomerData
+GROUP BY SUBSCRIPTIONTYPE
+```
+- **Customers Who Canceled Their Subscription Within 6 Months**:
+```sql
+--- Customers Who Canceled Their Subscription Within 6 Months---
+SELECT CUSTOMERID FROM CapstoneDatasetCustomerData
+WHERE Canceled = 'TRUE'
+  AND DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) <= 6
+```
+- **Average Subscription Duration**:
+```sql
+---Average Subscription Duration---
+SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) AS AvgSubscriptionDuration
+FROM CapstoneDatasetCustomerData
+```
+- **Customers With Subscriptions Longer than 12 Months**:
+```sql
+---Customers With Subscriptions Longer than 12 Months---
+SELECT CustomerID FROM CapstoneDatasetCustomerData
+WHERE DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) > 12
+```
+- **Total Revenue by Subscription Type**:
+```sql
+---Total Revenue by Subscription Type---
+SELECT SubscriptionType, SUM(Revenue) AS TOTALREVENUE FROM CapstoneDatasetCustomerData
+GROUP BY SubscriptionType
+```
+- **Top 3 Regions by Subscription Cancellations**:
+```sql
+---Top 3 Regions by Subscription Cancellations
+SELECT TOP 3 Region, COUNT(*) AS TotalCancellations FROM CapstoneDatasetCustomerData
+WHERE Canceled = 'TRUE'
+GROUP BY Region
+ORDER BY TotalCancellations DESC
+```
+- **Total Number of Active and Canceled Subscriptions**:
+```sql
+---Total Number of Active and Canceled Subscriptions---
+SELECT Canceled, COUNT(*) AS TotalSubscriptions FROM CapstoneDatasetCustomerData
+GROUP BY Canceled;
+```
 #### Power BI
 ![Customer Data](CustomerData.png)
 
