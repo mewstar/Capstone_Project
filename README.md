@@ -186,8 +186,8 @@ Subscription Duration in days is calculated for each row with the formula: Subsc
 ```excel
 =COUNTIF(G2:G33788, "TRUE")
 ```
-![15](15.png)- 
-**Total Revenue of Active and Cancelled Subscriptions by Year**:
+![15](15.png)
+- **Total Revenue of Active and Cancelled Subscriptions by Year**:
 
 ![16](16.png)
 #### SQL
