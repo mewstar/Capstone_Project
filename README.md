@@ -147,9 +147,10 @@ WHERE NOT EXISTS (
 GROUP BY PRODUCT
 ```
 #### Power BI
-
+![Sales Data](SalesData.png)
 ### Customer Segmentation for a Subscription Service
 
 #### Excel
 #### SQL
 #### Power BI
+![Customer Data](CustomerData.png)
