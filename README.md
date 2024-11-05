@@ -14,6 +14,7 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Reports](#reports)
   - [Sales Analysis](#sales-performance-analysis-for-a-retail-store)
   - [Customer Segmentation](#customer-segmentation-for-a-subscription-service)
+- [Conclusion](#conclusion)
 
 ## Data
 - `LITA Capstone Dataset Raw.xlsx`: Contains the raw sales and customer data used for the analysis.
@@ -168,3 +169,6 @@ Subscription Duration in days is calculated for each row with the formula: Subsc
 #### SQL
 #### Power BI
 ![Customer Data](CustomerData.png)
+
+## Conclusion
+
