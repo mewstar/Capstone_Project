@@ -165,7 +165,31 @@ Subscription Duration in days is calculated for each row with the formula: Subsc
 - **Most Popular Subscription Type**:
 
 ![10](10.png)
+- **Total Revenue by Region**:
 
+![11](11.png)
+- **Total Revenue by Subscription Type**:
+
+![14](14.png)
+- **Cancelled Subscriptions by Type**:
+
+![12_1](12_1.png)  ![12_2](12_2.png)
+- **Cancelled Subscriptions by Region**:
+
+![13_1](13_1.png)  ![13_2](13_2.png)
+
+- **Total Active Subscriptions**:
+```excel
+=COUNTIF(G2:G33788, "FALSE")
+```
+- **Total Cancelled Subscriptions**:
+```excel
+=COUNTIF(G2:G33788, "TRUE")
+```
+![15](15.png)- 
+**Total Revenue of Active and Cancelled Subscriptions by Year**:
+
+![16](16.png)
 #### SQL
 #### Power BI
 ![Customer Data](CustomerData.png)
