@@ -83,6 +83,69 @@ Total Revenue is calculated for each row with the formula: Quantity * UnitPrice
 
 ![6](6.png)  ![7](7.png)  ![8](8.png)
 #### SQL
+- **Total Sales by Product**:
+```sql
+---Total Sales For Each Product---
+SELECT PRODUCT, SUM(Quantity) AS TOTALSALE FROM CapstoneDatasetSalesData
+GROUP BY PRODUCT
+ORDER BY 2 DESC
+```
+- **Total Sales by Region**:
+```sql
+---Total Sales For Each Region---
+SELECT REGION, SUM(Quantity) AS TOTALSALE FROM CapstoneDatasetSalesData
+GROUP BY REGION
+ORDER BY 2 DESC
+```
+- **Top Selling Product**:
+```sql
+---Product With The Most Sales---
+SELECT TOP 1 PRODUCT, SUM(Quantity) AS MAXSALE FROM CapstoneDatasetSalesData
+GROUP BY PRODUCT
+ORDER BY 2 DESC
+```
+- **Total Revenue by Product**:
+```sql
+---Total Revenue For Each Product---
+SELECT PRODUCT, SUM(TotalRevenue) AS TOTALREVENUE FROM CapstoneDatasetSalesData
+GROUP BY PRODUCT
+ORDER BY 2 DESC
+```
+- **Total Monthly Sales for Current Year**:
+```sql
+---Total Sales in Each Month in the Current Year---
+SELECT DATENAME(MONTH,OrderDate) AS MONTH, SUM(Quantity) AS TOTALSALE
+FROM CapstoneDatasetSalesData
+WHERE YEAR(OrderDate) = YEAR(GETDATE())
+GROUP BY MONTH(OrderDate), DATENAME(MONTH,OrderDate)
+ORDER BY MONTH(OrderDate)
+```
+- **Top 5 Customers by Total Purchase Amount**:
+```sql
+---Top 5 Customers By Total Purchase Amount---
+SELECT TOP 5 Customer_Id, SUM(Quantity) AS MAXSPURCHASE FROM CapstoneDatasetSalesData
+GROUP BY Customer_Id
+ORDER BY 2 DESC
+```
+- **Percentage of Total Sales Contributed by Each Region**:
+```sql
+SELECT REGION, SUM(Quantity) * 100 / (SELECT SUM(Quantity) FROM CapstoneDatasetSalesData) AS PERCENTAGEOFTOTALSALE
+FROM CapstoneDatasetSalesData
+GROUP BY REGION
+ORDER BY 2 DESC
+```
+- **Products With ZERO Sales in the Last Quarter**:
+```sql
+---Products With no Sales in the Last Quarter---
+SELECT PRODUCT FROM CapstoneDatasetSalesData L1
+WHERE NOT EXISTS (
+     SELECT 1
+	 FROM CapstoneDatasetSalesData L2
+	 WHERE L2.PRODUCT = L1.PRODUCT
+	 AND L2.ORDERDATE >= DATEADD(QUARTER, -1, GETDATE())
+)
+GROUP BY PRODUCT
+```
 #### Power BI
 
 ### Customer Segmentation for a Subscription Service
