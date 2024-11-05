@@ -12,6 +12,7 @@ This project focuses on analysing the sales performance of a retail store to der
 - [Excel Workbook](#excel-workbook)
 - [Power BI Dashboards](#power-bi-dashboards)
 - [Reports](#reports)
+  - [Sales Analysis](#sales-performance-analysis-for-a-retail-store)
 
 ## Data
 - `LITA Capstone Dataset Raw.xlsx`: Contains the raw sales and customer data used for the analysis.
