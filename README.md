@@ -20,7 +20,6 @@ This project focuses on analysing the sales performance of a retail store to der
     - [Excel](#excel)
     - [SQL](#sql)
     - [Power BI](#power-bi)
-- [Summary](#summary)
 - [Conclusion](#conclusion)
 
 ## Data
@@ -252,6 +251,5 @@ GROUP BY Canceled;
 #### Power BI
 ![Customer Data](CustomerData.png)
 
-## Summary
 ## Conclusion
 
