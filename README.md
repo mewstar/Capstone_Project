@@ -45,7 +45,11 @@ GROUP BY Region
 
 ### Sales Performance Analysis for a Retail Store
 
-#### Excel
+#### Excel 
+Total Revenue is calculated for each row with the formula: Quantity * UnitPrice
+```excel
+   =F2*G2
+```
 - **Total Sales by Product**:
 
 ![1](1.png)
@@ -56,11 +60,26 @@ GROUP BY Region
 
 ![3](3.png)
 - **Average Sales per Product**:
+```excel
+=AVERAGEIF(C2:C9922, "Shoes", F2:F9922)
+=AVERAGEIF(C2:C9922, "Shirt", F2:F9922)
+=AVERAGEIF(C2:C9922, "Jacket", F2:F9922)
+=AVERAGEIF(C2:C9922, "Socks", F2:F9922)
+=AVERAGEIF(C2:C9922, "Gloves", F2:F9922)
+=AVERAGEIF(C2:C9922, "Hat", F2:F9922)
+```
 
 ![4](4.png)
 - **Total Revenue by Region**:
+```excel
+=SUMIF(D2:D9922, "North", H2:H9922)
+=SUMIF(D2:D9922, "South", H2:H9922)
+=SUMIF(D2:D9922, "East", H2:H9922)
+=SUMIF(D2:D9922, "West", H2:H9922)
+```
 
 ![5_1](5_1.png)  ![5_2](5_2.png)
+- **Other Insights**:
 
 ![6](6.png)  ![7](7.png)  ![8](8.png)
 #### SQL
