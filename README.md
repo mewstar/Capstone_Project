@@ -156,7 +156,12 @@ Subscription Duration in days is calculated for each row with the formula: Subsc
 ```excel
    =F2 - E2
 ```
+- **Average Subscription Duration in Days by Type**:
 
+![9](9.png)
+- **Most Popular Subscription Type**:
+
+![10](10.png)
 
 #### SQL
 #### Power BI
